@@ -19,7 +19,7 @@ import java.net.UnknownHostException;
  */
 public class Client {
     
-   static String arg[] = {"192.168.0.102", "6789", "Informações do sistema:"+"\n"};
+   static String arg[] = {"localhost", "6789", "Informações do sistema:"+"\n"};
    public static void main(String args[]) {
 
         Socket s = null;
